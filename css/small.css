@@ -96,17 +96,17 @@ main h2 {
 
 .weathersummary {
         position: absolute;
-        top: 20%;
+        top: 5%;
         left: 20px;
         background: rgba(256,256,0,0.7);
-        padding: .5rem;
+        padding: 0 0.5rem;
         border: 1px;
         box-shadow: 0 0 10px gray;
 }
 
 .weathersummary h3 {color: green;}
-span.titles { color: green; font-size:15px; font-weight: bold;}
-span.temptSummary {color: red;}
+.weathersummary p { color: green; font-size:15px; font-weight: bold;}
+.weathersummary span {color: red;}
 
 #fiveDayForecast {display: none;}
 
