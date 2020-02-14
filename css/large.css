@@ -1,0 +1,41 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+/*----------- HEADER --------------*/
+    header, nav, main, footer {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+/*----------- NAVIGATION --------------*/
+
+    nav ul li a {padding: .6rem 1rem;}
+
+/*----------- MAIN --------------*/
+main h2 {
+    text-align:center;
+
+}
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    width: 100%;
+    
+}
+
+
+.hero-img {
+    margin: 0;
+    padding: 2%;
+    width: 100%;
+   
+}
+
+.weathersummary {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    
+}
+
+} /*end large */
