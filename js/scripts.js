@@ -4,7 +4,7 @@ window.onload = init;
 function init() {
     messages = [
         "Saturday = Preston &#129374; Pancakes in the Park! 9 a.m. Saturday at the city park pavilion.",
-        "Don't forget to go to the church this Sunday &#9962;"
+        "Don't forget to go to Church this Sunday &#9962;"
         ]
     let today = new Date().getDay();
     let message = "";

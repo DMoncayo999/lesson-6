@@ -64,7 +64,12 @@
     <h2>Preston Idaho</h2>
 
     <div class="herodiv">
-        <img class="hero-img" src="images/photo-town.jpeg" alt= "town">
+        <picture>
+            <source media="(max-width: 200px)" srcset="images/franklin200.jpg"> 
+            <source media="(max-width: 500px)" srcset="images/franklin500.jpg">
+            <source media="(max-width: 800px)" srcset="images/franklin800.jpg">
+            <img class="hero-img" src="images/franklin1100.jpg" alt="landscape with blue sky">         
+        </picture>
 
         <section class="weathersummary">
             <h3>&#127774; Weather Summary</h3>

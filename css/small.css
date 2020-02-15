@@ -1,5 +1,6 @@
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -83,15 +84,12 @@ main h2 {
 }
 
 .herodiv {
-    position: relative;
-    width: 100%;
-    
+    position: relative;    
 }
 
 .hero-img {
     margin: 0 2%;
-    width: 96%;
-    
+    width: 96%;  
 }
 
 .weathersummary {
@@ -105,7 +103,7 @@ main h2 {
 }
 
 .weathersummary h3 {color: green;}
-.weathersummary p { color: green; font-size:15px; font-weight: bold;}
+.weathersummary p { color: green; font-size:10px; font-weight: bold;}
 .weathersummary span {color: red;}
 
 #fiveDayForecast {display: none;}
