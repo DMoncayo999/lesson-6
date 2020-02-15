@@ -84,13 +84,16 @@ main h2 {
 }
 
 .herodiv {
-    position: relative;    
+    position: relative;
+    width: 100%;    
 }
 
-.hero-img {
+picture.heroPhoto {
+    display: block;
     margin: 0 2%;
     width: 96%;  
 }
+main picture.heroPhoto img {width:100%;}
 
 .weathersummary {
         position: absolute;

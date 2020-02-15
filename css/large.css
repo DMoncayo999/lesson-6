@@ -16,19 +16,6 @@ main h2 {
     text-align:center;
 
 }
-.herodiv {
-    margin: 10px auto;
-    position: relative;
-    width: 100%;
-    
-}
-
-.hero-img {
-    margin: 0;
-    padding: 0 2%;
-    width: 100%;
-   
-}
 
 .weathersummary {
     position: absolute;
