@@ -97,8 +97,8 @@ main picture.heroPhoto img {width:100%;}
 
 .weathersummary {
         position: absolute;
-        top: 5%;
-        left: 20px;
+        top: 10px;
+        left: 15px;
         background: rgba(256,256,0,0.7);
         padding: 0 0.5rem;
         border: 1px;
